@@ -64,22 +64,17 @@
         </nav>
     </header>
 
-    <section class="artista__section">
+    <section class="container-fluid">
 
-        <h1 class="artista__section h1 center"> NITAM </h1>
+        <h1 class="font-title text-center"> NITAM </h1>
 
-        <article class="artista__section__articleCarrera">
-            <!-- Imagen lateral izquierda -->
-            <div class="artista__section__articleCarrera__divImg">
-                <img class="artista__section__articleCarrera__divImg__img border"
-                    src="../assets/images/nitamcantando.png" alt="">
-            </div>
+        <article class="container-fluid">
 
-            <div class="artista__section__articleCarrera__divTexto">
+            <div class="col-9">
 
-                <h2 class="artista__section__articleCarrera__divTexto__h2"> Sobre el artista </h2>
+                <h2 class="h2"> Sobre el artista </h2>
 
-                <p class="artista__section__articleCarrera__divTexto__p"> Martin Cline Graziani, conocido
+                <p> Martin Cline Graziani, conocido
                     artisticamente como NITAM, es un artista de gran talento y versatilidad de Berisso, una ciudad
                     en la Zona Sur de la provincia de Buenos Aires.
 
@@ -94,43 +89,50 @@
                     Por eso elegimos trabajar juntos de acá en adelante para potenciar aún mas su arte combinándola
                     con la esencia de #greatsauceprod 🙏🏼 </p>
             </div>
-        </article>
 
-        <article class="artista__section__articleDestacado center">
-
-            <span class="artista__section__articleDestacado span center"> Contenido destacado </span>
-            <!-- Videoclip 1 -->
-            <div class="artista__section__articleDestacado__div border">
-                <iframe class="artista__section__articleDestacado__div__iframe"
-                    src="https://www.youtube.com/embed/3ZRUt_ZVSwM" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
-            </div>
-            <!-- Videoclip 2 -->
-            <div class="artista__section__articleDestacado__div border">
-                <iframe class="artista__section__articleDestacado__div__iframe"
-                    src="https://www.youtube.com/embed/SZug16SG0GM" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
-            </div>
-            <!-- Videoclip 3 -->
-            <div class="artista__section__articleDestacado__div border">
-                <iframe class="artista__section__articleDestacado__div__iframe"
-                    src="https://www.youtube.com/embed/4gzCMJUBPp8" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-
-                </iframe>
+            <!-- Imagen lateral izquierda -->
+            <div class="col-xl-3 d-none">
+                    <img src="../assets/images/nitamcantando.png" alt="">
             </div>
 
         </article>
 
-        <article class="artista__section__articleContacto center">
+        <article class="container-fluid text-center">
 
-            <span class="artista__section__articleContacto span"> Descubri más sobre Nitam visitando sus redes
-            </span>
+            <div class="row">
+                <!-- Videoclip 1 -->
+                <div class="col-xl-4 px-2">
+                    <iframe class="border cardFilmYt" src="https://www.youtube.com/embed/3ZRUt_ZVSwM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- Videoclip 2 -->
+                <div class="col-xl-4 px-2">
+                    <iframe class="border cardFilmYt" src="https://www.youtube.com/embed/SZug16SG0GM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- Videoclip 3 -->
+                <div class="col-xl-4 px-2">
+                    <iframe class="border cardFilmYt" src="https://www.youtube.com/embed/4gzCMJUBPp8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+
+                    </iframe>
+                </div>
+
+            </div>
+
+        </article>
+
+        <article class="row">
+
+            <h2 class="d-xl-block text-center"> Descubri más sobre Nitam visitando sus redes</h2>
 
             <div class="artista__section__articleContacto__div">
                 <a href="https://instagram.com/nitam.mad?igshid=YmMyMTA2M2Y="><img
