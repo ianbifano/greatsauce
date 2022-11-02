@@ -10,7 +10,8 @@
 }
 
 .iframe {
-    height: 40vh;
+    width: 40vw;
+    height: 30vh;
 }
 
 .border {
@@ -62,7 +63,7 @@
 
 .card {
     width: 20rem;
-    margin: 50px 30px;
+    margin: 50px 0px;
 }
 
 .card:hover {
@@ -72,9 +73,8 @@
 
 .cardFilmYt {
     margin: 100px 0px;
-    width: 300px;
+    width: 250px;
     height: 200px;
-
 }
 
 .cardFilmYt:hover {
@@ -139,4 +139,8 @@ footer {
 
 .carousel {
     width: 40vw;
+}
+
+#index__section {
+    margin: 0px;
 }
