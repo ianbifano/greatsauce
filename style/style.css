@@ -10,7 +10,7 @@
 }
 
 .iframe {
-    width: 40vw;
+    width: 60vw;
     height: 30vh;
 }
 
@@ -81,44 +81,6 @@
     transform: scale(1.04) rotate(-0.5deg);
     box-shadow: -5px -5px 15px orange;
 
-}
-
-/* .slide-right {
-    -webkit-animation: slide-right 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-right 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-} */
-
-@-webkit-keyframes slide-right {
-    0% {
-        -webkit-transform: translateX(2000px);
-        transform: translateX(2000px);
-    }
-
-    100% {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-}
-
-@keyframes slide-right {
-    0% {
-        -webkit-transform: translateX(2000px);
-        transform: translateX(2000px);
-    }
-
-    100% {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-}
-
-@media (min-width: 600px) {
-    .cardFilmYt {
-        margin: 50px 0px;
-        width: 500px;
-        height: 450px;
-
-    }
 }
 
 .imagen-lateral {
