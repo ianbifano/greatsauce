@@ -48,6 +48,10 @@
     margin: 50px 0px;
 }
 
+.font-title:hover {
+    transform: rotate(3deg);
+}
+
 .font-orange {
     color: rgb(238, 155, 0);
 }
@@ -75,6 +79,14 @@
     margin: 100px 0px;
     width: 250px;
     height: 200px;
+}
+
+@media (min-width: 600px) {
+    .cardFilmYt {
+        margin: 100px 0px;
+        width: 450px;
+        height: 300px;
+    }
 }
 
 .cardFilmYt:hover {
@@ -105,4 +117,63 @@ footer {
 
 #index__section {
     margin: 0px;
+}
+
+
+.card-servicio {
+    margin-top: 50px;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+}
+
+.card-servicio-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+
+.card-servicio-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: orange;
+    color: black;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.card-servicio-text-body {
+    color: rgb(134, 134, 134);
+}
+
+/*Text*/
+.card-servicio-text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*Hover*/
+.card-servicio:hover {
+    border-color: orange;
+    box-shadow: 2px 2px 10px orange;
+}
+
+.card-servicio:hover .card-servicio-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
 }
