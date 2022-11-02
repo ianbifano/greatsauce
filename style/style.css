@@ -27,18 +27,18 @@
 }
 
 .footer-icono-youtube {
-    width: 10vw;
-    height: 5vw;
+    width: 100px;
+    height: 50px;
 }
 
 .footer-icono-instagram {
-    width: 6vw;
-    height: 6 vw;
+    width: 80px;
+    height: 80px;
 }
 
 .footer-icono-spotify {
-    width: 12vw;
-    height: 5vw;
+    width: 130px;
+    height: 50px;
 }
 
 .font-title {
@@ -48,7 +48,7 @@
 }
 
 .font-orange {
-    color: orange;
+    color: rgb(238, 155, 0);
 }
 
 .text-none-style {
@@ -71,9 +71,45 @@
 }
 
 .cardFilmYt {
-    margin: 50px 0px;
+    margin: 100px 0px;
     width: 300px;
     height: 200px;
+
+}
+
+.cardFilmYt:hover {
+    transform: scale(1.04) rotate(-0.5deg);
+    box-shadow: -5px -5px 15px orange;
+
+}
+
+.slide-right {
+    -webkit-animation: slide-right 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-right 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-right {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+    }
+}
+
+@keyframes slide-right {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+    }
 }
 
 @media (min-width: 600px) {
@@ -81,6 +117,7 @@
         margin: 50px 0px;
         width: 500px;
         height: 450px;
+
     }
 }
 
@@ -94,4 +131,12 @@
     border-radius: 10px;
     border: 1px solid orange;
     box-shadow: 5px 5px 10px orange;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.carousel {
+    width: 40vw;
 }

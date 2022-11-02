@@ -64,17 +64,48 @@
         </nav>
     </header>
 
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assets/images/nitamcantando.png" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/images/d-santy.png" class="d-block w-100 img-fluid" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
     <main>
-        <section class="sobreNosotros__section">
+        <section>
 
-            <h1 class="font-title"> GREAT SAUCE </h1>
+            <h1 class="font-title text-center"> GREAT SAUCE </h1>
 
-            <article class="sobreNosotros__section__article">
-                <div class="sobreNosotros__section__article__div">
+            <article>
+                <div>
 
-                    <span class="sobreNosotros__section__article__div span center"> ¿Quienes Somos? </span>
+                    <span> ¿Quienes Somos? </span>
 
-                    <p class="sobreNosotros__section__article__div__p">
+                    <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut inventore itaque harum modi
                         voluptate, ducimus ad debitis unde aspernatur perferendis voluptatem optio id blanditiis quod ab
                         dolore culpa, omnis iste.
@@ -95,16 +126,18 @@
     </main>
 
     <!-- footer -->
-    <footer class="footer center">
-        <p class="footer__p"> ®GreatSauce Todos los derechos reservados </p>
-        <p class="footer__p"> Seguinos en nuestras redes sociales</p>
-        <a href="https://www.instagram.com/greatsauce_/?hl=es-la"><img class="icono"
-                src="../assets/iconos/instagram.jpeg" alt=""></a>
-        <a href="https://open.spotify.com/artist/2seK8lgS6z92YDUcS8hCJz"><img class="icono spotify"
-                src="../assets/iconos/spotify.png" alt=""></a>
-        <a href="https://www.youtube.com/channel/UCAH49aRyzMjTrdMV9Gi7CUA"><img src="../assets/iconos/youtube.png" alt="" class="icono youtube"></a>
+    <footer class="container-fluid text-center">
+        <p class="font-orange"> ®GreatSauce Todos los derechos reservados </p>
+        <p class="font-orange"> Seguinos en nuestras redes sociales</p>
+        <div class="container-fluid d-flex justify-content-evenly containerIconos">
+            <a href="https://www.instagram.com/greatsauce_/?hl=es-la"><img class="footer-icono-instagram px-2"
+                    src="../assets/iconos/instagram.jpeg" alt=""></a>
+            <a href="https://open.spotify.com/artist/2seK8lgS6z92YDUcS8hCJz"><img class="footer-icono-spotify px-2"
+                    src="../assets/iconos/spotify.png" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCAH49aRyzMjTrdMV9Gi7CUA"><img src="../assets/iconos/youtube.png"
+                    alt="" class="footer-icono-youtube px-2 "></a>
+        </div>
     </footer>
-
 </body>
 
 </html>
