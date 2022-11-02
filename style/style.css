@@ -37,8 +37,8 @@
 }
 
 .footer-icono-spotify {
-    width: 130px;
-    height: 50px;
+    width: 170px;
+    height: 80px;
 }
 
 .font-title {
@@ -90,25 +90,25 @@
 
 @-webkit-keyframes slide-right {
     0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
+        -webkit-transform: translateX(2000px);
+        transform: translateX(2000px);
     }
 
     100% {
-        -webkit-transform: translateX(100px);
-        transform: translateX(100px);
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
     }
 }
 
 @keyframes slide-right {
     0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
+        -webkit-transform: translateX(2000px);
+        transform: translateX(2000px);
     }
 
     100% {
-        -webkit-transform: translateX(100px);
-        transform: translateX(100px);
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
     }
 }
 
