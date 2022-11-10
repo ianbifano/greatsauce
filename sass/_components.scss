@@ -18,12 +18,17 @@
 }
 
 /* Nav-bar Style */
+
+.nav-center{
+    display: flex;
+    justify-content: center;
+}
+
 .nav-item {
     font-size: globals.$textFontSize;
 
     &:hover {
         font-size: (globals.$textFontSize+5);
-
     }
 }
 
@@ -53,8 +58,8 @@ footer {
     text-shadow: 5px 5px 5px globals.$mainColor;
     font-size: globals.$titleFontSize;
     margin: 50px 0px;
-    
-    &:hover{
+
+    &:hover {
         transform: rotate(3deg);
     }
 }
@@ -63,4 +68,3 @@ footer {
 .text-none-style {
     text-decoration: none;
 }
-

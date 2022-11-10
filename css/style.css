@@ -28,6 +28,11 @@
 }
 
 /* Nav-bar Style */
+.nav-center {
+  display: flex;
+  justify-content: center;
+}
+
 .nav-item {
   font-size: 30px;
 }
