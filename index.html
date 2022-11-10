@@ -11,7 +11,8 @@
 
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./style/style.css">
+    <!-- <link rel="stylesheet" href="./style/style.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
 
     <!-- BOOTSTRAP -->
 
@@ -31,37 +32,34 @@
 <body>
 
     <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
 
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse center" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="./pages/artistas.html">Artistas</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="./pages/sobreNosotros.html">Sobre Nosotros</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="./pages/artistas.html">Artistas</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="./pages/sobreNosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+
+        </div>
+    </nav>
 
     <section class="row" id="index__section">
 
@@ -94,11 +92,6 @@
 
         </article>
 
-        <article class="col-3">
-            <div class="container text-center">
-            </div>
-        </article>
-
     </section>
 
     <!-- footer -->
@@ -107,9 +100,9 @@
         <p class="font-orange"> Seguinos en nuestras redes sociales</p>
         <div class="container-fluid d-flex justify-content-evenly containerIconos">
             <a href="https://www.instagram.com/greatsauce_/?hl=es-la"><img class="footer-icono-instagram px-2"
-                    src="./assets/iconos/instagram.jpeg" alt=""></a>
+                    src="./assets/iconos/instagram.svg" alt=""></a>
             <a href="https://open.spotify.com/artist/2seK8lgS6z92YDUcS8hCJz"><img class="footer-icono-spotify px-2"
-                    src="./assets/iconos/spotify.png" alt=""></a>
+                    src="./assets/iconos/spotify.svg" alt=""></a>
             <a href="https://www.youtube.com/channel/UCAH49aRyzMjTrdMV9Gi7CUA"><img src="./assets/iconos/youtube.png"
                     alt="" class="footer-icono-youtube px-2 "></a>
         </div>

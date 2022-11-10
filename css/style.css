@@ -1,0 +1,180 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  /* Selecciono la fuente */
+  font-family: "Raleway", sans-serif;
+}
+
+/* color principal */
+/* tamaño de fuente para texto */
+/* Color de los bordes */
+/* Font-size para texto */
+/* iframes style */
+.iframe {
+  width: 60vw;
+  height: 30vh;
+}
+
+/* estilo de bordes */
+.border {
+  border: 1px solid white;
+  box-shadow: 5px 5px 15px orange;
+}
+
+/* Fuente naranja */
+.font-orange {
+  color: orange;
+}
+
+/* Nav-bar Style */
+.nav-item {
+  font-size: 30px;
+}
+.nav-item:hover {
+  font-size: 35px;
+}
+
+/* Footer Style */
+.footer-icono-youtube {
+  width: 100px;
+  height: 50px;
+}
+
+.footer-icono-instagram {
+  width: 80px;
+  height: 80px;
+}
+
+.footer-icono-spotify {
+  width: 170px;
+  height: 80px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+/* Estilo de titulos */
+.font-title {
+  text-shadow: 5px 5px 5px orange;
+  font-size: 70px;
+  margin: 50px 0px;
+}
+.font-title:hover {
+  transform: rotate(3deg);
+}
+
+/* quita el estilo de texto */
+.text-none-style {
+  text-decoration: none;
+}
+
+#index__section {
+  margin: 0px;
+}
+
+.cardFilmYt {
+  margin: 100px 0px;
+  width: 250px;
+  height: 200px;
+}
+
+@media (min-width: 600px) {
+  .cardFilmYt {
+    margin: 100px 0px;
+    width: 450px;
+    height: 300px;
+  }
+}
+.cardFilmYt:hover {
+  transform: scale(1.04) rotate(-0.5deg);
+  box-shadow: -5px -5px 15px orange;
+}
+
+.card-title {
+  color: black;
+  font-size: 30px;
+}
+
+.card {
+  width: 20rem;
+  margin: 50px 0px;
+}
+.card:hover {
+  transform: scale(1.04) rotate(1deg);
+  box-shadow: -5px -5px 15px orange;
+}
+
+.form {
+  margin: 50px 0px 100px 0px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 5px 5px 10px orange;
+}
+
+.card-servicio {
+  margin-top: 50px;
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  background: #f5f5f5;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid white;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+.card-servicio:hover {
+  border-color: orange;
+  box-shadow: 2px 2px 10px orange;
+}
+.card-servicio:hover .card-servicio-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+
+.card-servicio-details {
+  color: black;
+  height: 100%;
+  gap: 0.5em;
+  display: grid;
+  place-content: center;
+}
+
+.card-servicio-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: orange;
+  color: black;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.card-servicio-text-body {
+  color: rgb(134, 134, 134);
+}
+
+/*Text*/
+.card-servicio-text-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.carousel {
+  width: 40vw;
+}
+
+.carousel-item {
+  height: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */

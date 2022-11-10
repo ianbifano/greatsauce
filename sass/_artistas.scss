@@ -1,0 +1,16 @@
+@use 'globals';
+
+.card-title {
+    color: black;
+    font-size: globals.$textFontSize;
+}
+
+.card {
+    width: 20rem;
+    margin: 50px 0px;
+
+    &:hover {
+        transform: scale(1.04) rotate(1deg);
+        box-shadow: -5px -5px 15px globals.$mainColor;
+    }
+}

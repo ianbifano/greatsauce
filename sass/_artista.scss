@@ -1,0 +1,21 @@
+@use 'globals';
+
+.cardFilmYt {
+    margin: 100px 0px;
+    width: 250px;
+    height: 200px;
+}
+
+@media (min-width: 600px) {
+    .cardFilmYt {
+        margin: 100px 0px;
+        width: 450px;
+        height: 300px;
+    }
+}
+
+.cardFilmYt:hover {
+    transform: scale(1.04) rotate(-0.5deg);
+    box-shadow: -5px -5px 15px globals.$mainColor;
+
+}

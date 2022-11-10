@@ -1,0 +1,66 @@
+@use 'globals';
+
+/* iframes style */
+.iframe {
+    width: 60vw;
+    height: 30vh;
+}
+
+/* estilo de bordes */
+.border {
+    border: 1px solid globals.$borderColor;
+    box-shadow: 5px 5px 15px globals.$mainColor;
+}
+
+/* Fuente naranja */
+.font-orange {
+    color: globals.$mainColor;
+}
+
+/* Nav-bar Style */
+.nav-item {
+    font-size: globals.$textFontSize;
+
+    &:hover {
+        font-size: (globals.$textFontSize+5);
+
+    }
+}
+
+
+/* Footer Style */
+.footer-icono-youtube {
+    width: 100px;
+    height: 50px;
+}
+
+.footer-icono-instagram {
+    width: 80px;
+    height: 80px;
+}
+
+.footer-icono-spotify {
+    width: 170px;
+    height: 80px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+/* Estilo de titulos */
+.font-title {
+    text-shadow: 5px 5px 5px globals.$mainColor;
+    font-size: globals.$titleFontSize;
+    margin: 50px 0px;
+    
+    &:hover{
+        transform: rotate(3deg);
+    }
+}
+
+/* quita el estilo de texto */
+.text-none-style {
+    text-decoration: none;
+}
+
