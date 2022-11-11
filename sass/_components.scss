@@ -29,9 +29,10 @@
 
     &:hover {
         font-size: (globals.$textFontSize+5);
+        padding: 0px;
+        margin: 0px;
     }
 }
-
 
 /* Footer Style */
 .footer-icono-youtube {

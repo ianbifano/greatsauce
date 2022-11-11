@@ -38,6 +38,8 @@
 }
 .nav-item:hover {
   font-size: 35px;
+  padding: 0px;
+  margin: 0px;
 }
 
 /* Footer Style */
