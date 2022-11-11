@@ -1,8 +1,8 @@
-@use 'globals';
-@use 'components';
-@use 'home';
-@use 'artista';
-@use 'artistas';
-@use 'contacto';
-@use 'servicios';
-@use 'sobreNosotros';
+@use 'partials/globals';
+@use 'partials/components';
+@use 'partials/home';
+@use 'partials/artista';
+@use 'partials/artistas';
+@use 'partials/contacto';
+@use 'partials/servicios';
+@use 'partials/sobreNosotros';

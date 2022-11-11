@@ -11,11 +11,10 @@
         margin: 100px 0px;
         width: 450px;
         height: 300px;
+
+        &:hover {
+            transform: scale(1.04) rotate(-0.5deg);
+            box-shadow: -5px -5px 15px globals.$mainColor;
+        }
     }
-}
-
-.cardFilmYt:hover {
-    transform: scale(1.04) rotate(-0.5deg);
-    box-shadow: -5px -5px 15px globals.$mainColor;
-
 }

@@ -19,7 +19,7 @@
 
 /* Nav-bar Style */
 
-.nav-center{
+.nav-center {
     display: flex;
     justify-content: center;
 }
@@ -34,22 +34,20 @@
     }
 }
 
+.icon {
+    width: 70px;
+    height: 60px;
+}
+
+@media (min-width: 600px) {
+    .icon {
+        width: 110px;
+        height: 100px;
+    }
+}
+
+
 /* Footer Style */
-.footer-icono-youtube {
-    width: 100px;
-    height: 50px;
-}
-
-.footer-icono-instagram {
-    width: 80px;
-    height: 80px;
-}
-
-.footer-icono-spotify {
-    width: 170px;
-    height: 80px;
-}
-
 footer {
     margin-top: 100px;
 }
