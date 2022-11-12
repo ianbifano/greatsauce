@@ -15,7 +15,7 @@ $mainColor: orange;
 
 
 /* tamaño de fuente para texto */
-$textFontSize: 30px;
+$textFontSize: 20px;
 
 /* Color de los bordes */
 $borderColor: white;
@@ -24,5 +24,7 @@ $borderColor: white;
 $titleFontSize: 70px;
 
 
-
-
+@mixin size ($width, $height){
+    width: $width;
+    height: $height;
+}

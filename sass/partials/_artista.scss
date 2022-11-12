@@ -2,15 +2,14 @@
 
 .cardFilmYt {
     margin: 100px 0px;
-    width: 250px;
-    height: 200px;
+    @include globals.size(250px,200px);
 }
 
 @media (min-width: 600px) {
     .cardFilmYt {
         margin: 100px 0px;
-        width: 450px;
-        height: 300px;
+        
+        @include globals.size(450px,300px);
 
         &:hover {
             transform: scale(1.04) rotate(-0.5deg);

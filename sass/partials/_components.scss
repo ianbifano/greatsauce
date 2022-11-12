@@ -2,8 +2,7 @@
 
 /* iframes style */
 .iframe {
-    width: 60vw;
-    height: 30vh;
+    @include globals.size(60vw,30vh);
 }
 
 /* estilo de bordes */
@@ -18,31 +17,33 @@
 }
 
 /* Nav-bar Style */
-
 .nav-center {
     display: flex;
     justify-content: center;
 }
 
-.nav-item {
-    font-size: globals.$textFontSize;
+.navbar-nav {
 
-    &:hover {
-        font-size: (globals.$textFontSize+5);
-        padding: 0px;
-        margin: 0px;
+    .nav-item {
+        font-size: 30px;
+
+        &:hover {
+            font-size: 35px;
+            padding: 0px;
+            margin: 0px;
+        }
     }
-}
 
-.icon {
-    width: 70px;
-    height: 60px;
+    .nav-link {
+        &:hover {
+            color: globals.$mainColor !important;
+        }
+    }
 }
 
 @media (min-width: 600px) {
     .icon {
-        width: 110px;
-        height: 100px;
+        @include globals.size(110px,100px);
     }
 }
 
@@ -50,6 +51,11 @@
 /* Footer Style */
 footer {
     margin-top: 100px;
+
+    /* Estilo iconos */
+    .icon {
+        @include globals.size(70px,60px);
+    }
 }
 
 /* Estilo de titulos */
@@ -66,4 +72,23 @@ footer {
 /* quita el estilo de texto */
 .text-none-style {
     text-decoration: none;
+}
+
+.simple-text-size{
+    font-size: globals.$textFontSize;
+}
+
+/* Style button */
+.button {
+    border: 1px solid globals.$mainColor;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    color: globals.$mainColor;
+    width: 100px;
+
+    &:hover {
+        background-color: globals.$mainColor;
+        color: white;
+    }
 }
