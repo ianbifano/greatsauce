@@ -2,7 +2,7 @@
 
 /* iframes style */
 .iframe {
-    @include globals.size(60vw,30vh);
+    @include globals.size(60vw, 30vh);
 }
 
 /* estilo de bordes */
@@ -43,7 +43,7 @@
 
 @media (min-width: 600px) {
     .icon {
-        @include globals.size(110px,100px);
+        @include globals.size(110px, 100px);
     }
 }
 
@@ -51,12 +51,13 @@
 /* Footer Style */
 footer {
     margin-top: 100px;
-
-    /* Estilo iconos */
-    .icon {
-        @include globals.size(70px,60px);
-    }
 }
+
+/* Estilo iconos */
+.icon {
+    @include globals.size(70px, 60px);
+}
+
 
 /* Estilo de titulos */
 .font-title {
@@ -74,7 +75,7 @@ footer {
     text-decoration: none;
 }
 
-.simple-text-size{
+.simple-text-size {
     font-size: globals.$textFontSize;
 }
 
