@@ -9,6 +9,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+/* Clase por id para eliminar margenes estasblecidos por las clases de bootstrap */
+#margin-0 {
+    margin: 0px;
+}
 
 /* color principal */
 $mainColor: orange;

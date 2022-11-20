@@ -7,6 +7,11 @@
   font-family: "Raleway", sans-serif;
 }
 
+/* Clase por id para eliminar margenes estasblecidos por las clases de bootstrap */
+#margin-0 {
+  margin: 0px;
+}
+
 /* color principal */
 /* tamaño de fuente para texto */
 /* Color de los bordes */
@@ -64,15 +69,34 @@ footer {
 }
 
 /* Estilo de titulos */
-.font-title {
+.font-title, .home-title {
   text-shadow: 5px 5px 5px orange;
   font-size: 70px;
-  margin: 50px 0px;
-}
-.font-title:hover {
-  transform: rotate(3deg);
+  margin: 50px 0px 50px 0px;
+  animation-name: title-animation;
+  animation-duration: 0.5s;
 }
 
+/* Responsividad de los titlos */
+@media (max-width: 600px) {
+  .font-title, .home-title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 400px) {
+  .font-title, .home-title {
+    font-size: 20px;
+  }
+}
+/* animacion de los titulos */
+@keyframes title-animation {
+  from {
+    transform: translate(-400px, 0px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
 /* quita el estilo de texto */
 .text-none-style {
   text-decoration: none;
@@ -96,7 +120,18 @@ footer {
   color: white;
 }
 
-#index__section {
+.carousel {
+  width: 40vw;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.home-title {
+  transform: translateY(-200px);
+  color: white;
+  animation-name: none;
   margin: 0px;
 }
 
@@ -135,6 +170,10 @@ footer {
   margin: 50px 0px 100px 0px;
   padding: 15px;
   border-radius: 10px;
+}
+
+.row {
+  margin: 0px !important;
 }
 
 .card-servicio {
@@ -189,14 +228,6 @@ footer {
 .card-servicio-text-title {
   font-size: 20px;
   font-weight: bold;
-}
-
-.carousel {
-  width: 40vw;
-}
-
-.carousel-item {
-  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

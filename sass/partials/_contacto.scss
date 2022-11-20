@@ -1,5 +1,5 @@
 @use 'globals';
-@use 'components'; 
+@use 'components';
 
 .form {
     margin: 50px 0px 100px 0px;
@@ -7,4 +7,8 @@
     border-radius: 10px;
 
     @extend .border
+}
+
+.row {
+    margin:0px !important;
 }

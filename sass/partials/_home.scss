@@ -1,3 +1,20 @@
-#index__section {
+@use 'components';
+
+.carousel {
+    width: 40vw;
+}
+
+.carousel-item {
+    height: 500px;
+}   
+
+.home-title {
+    @extend .font-title;
+
+    transform: translateY(-200px);
+    color:white;
+    animation-name: none;
+
     margin: 0px;
+
 }

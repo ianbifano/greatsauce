@@ -53,6 +53,8 @@ footer {
     margin-top: 100px;
 }
 
+
+
 /* Estilo iconos */
 .icon {
     @include globals.size(70px, 60px);
@@ -63,12 +65,36 @@ footer {
 .font-title {
     text-shadow: 5px 5px 5px globals.$mainColor;
     font-size: globals.$titleFontSize;
-    margin: 50px 0px;
+    margin: 50px 0px 50px 0px;
 
-    &:hover {
-        transform: rotate(3deg);
+    animation-name: title-animation;
+    animation-duration: 0.5s;
+}
+
+/* Responsividad de los titlos */
+@media (max-width: 600px){
+    .font-title {
+        font-size: globals.$titleFontSize - 20;
     }
 }
+
+@media (max-width: 400px){
+    .font-title {
+        font-size: globals.$titleFontSize - 50;
+    }
+}
+
+/* animacion de los titulos */
+@keyframes title-animation{
+    from {
+        transform: translate(-400px,0px);
+    }
+    to{
+        transform: translate(0px , 0px);
+    }
+}
+
+
 
 /* quita el estilo de texto */
 .text-none-style {
