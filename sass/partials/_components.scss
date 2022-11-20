@@ -80,7 +80,13 @@ footer {
 
 @media (max-width: 400px){
     .font-title {
-        font-size: globals.$titleFontSize - 50;
+        font-size: globals.$titleFontSize - 30;
+    }
+}
+
+@media (max-width: 350px){
+    .font-title {
+        font-size: globals.$titleFontSize - 40;
     }
 }
 

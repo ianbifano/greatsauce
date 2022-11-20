@@ -85,7 +85,12 @@ footer {
 }
 @media (max-width: 400px) {
   .font-title, .home-title {
-    font-size: 20px;
+    font-size: 40px;
+  }
+}
+@media (max-width: 350px) {
+  .font-title, .home-title {
+    font-size: 30px;
   }
 }
 /* animacion de los titulos */
@@ -176,23 +181,6 @@ footer {
   margin: 20px 0px;
 }
 
-.cardFilmYt {
-  margin: 100px 0px;
-  width: 250px;
-  height: 200px;
-}
-
-@media (min-width: 600px) {
-  .cardFilmYt {
-    margin: 100px 0px;
-    width: 450px;
-    height: 300px;
-  }
-  .cardFilmYt:hover {
-    transform: scale(1.04) rotate(-0.5deg);
-    box-shadow: -5px -5px 15px orange;
-  }
-}
 .card-title {
   color: black;
   font-size: 20px;
@@ -229,11 +217,11 @@ footer {
   width: 300px;
   height: 500px;
 }
-.card-servicio:hover {
+.card-servicio:focus {
   border-color: orange;
   box-shadow: 2px 2px 10px orange;
 }
-.card-servicio:hover .card-servicio-button {
+.card-servicio:focus .card-servicio-button {
   transform: translate(-50%, 50%);
   opacity: 1;
 }
