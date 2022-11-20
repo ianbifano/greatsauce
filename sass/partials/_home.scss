@@ -13,8 +13,18 @@
 
     transform: translateY(-200px);
     color:white;
-    animation-name: none;
-
+    animation-name: home-animation;
+    animation-duration: 0.5s;
     margin: 0px;
 
+}
+
+/* animacion de los titulos */
+@keyframes home-animation{
+    from {
+        transform: translate(-400px,-200px);
+    }
+    to{
+        transform: translate(0px , -200px);
+    }
 }
