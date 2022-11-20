@@ -119,3 +119,34 @@ footer {
         color: white;
     }
 }
+
+.cardFilmYt {
+    margin: 100px 0px;
+    @include globals.size(250px,200px);
+
+    animation-name: cardYT-animation;
+    animation-duration: 3s;
+}
+
+@media (min-width: 600px) {
+    .cardFilmYt {
+        margin: 100px 0px;
+        
+        @include globals.size(450px,300px);
+
+        &:hover {
+            transform: scale(1.04) rotate(-0.5deg);
+            box-shadow: -5px -5px 15px globals.$mainColor;
+        }
+    }
+}
+
+@keyframes cardYT-animation {
+    from {
+        transform: translate(-400px,0px);
+    }
+
+    to {
+        transform: translate(0px,0px);
+    }
+}
