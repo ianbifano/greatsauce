@@ -145,6 +145,10 @@ footer {
     transform: translate(0px, -200px);
   }
 }
+.subtitle {
+  margin: 20px 0px;
+}
+
 .cardFilmYt {
   margin: 100px 0px;
   width: 250px;
