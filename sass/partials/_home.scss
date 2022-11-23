@@ -4,31 +4,33 @@
     width: 40vw;
 }
 
+$carouselItemHeight: 500px;
+
 .carousel-item {
-    height: 500px;
+    height: $carouselItemHeight;
 }   
 
 @media (max-width: 400px ){
     .carousel-item {
-        height: 100px;
+        height: $carouselItemHeight - 400;
     }
 }
 
 @media (max-width: 600px ){
     .carousel-item {
-        height: 200px;
+        height: $carouselItemHeight - 300;
     }
 }
 
 @media (max-width: 1000px ){
     .carousel-item {
-        height: 300px;
+        height: $carouselItemHeight - 200;
     }
 }
 
 @media (max-width: 1400px ){
     .carousel-item {
-        height: 400px;
+        height: $carouselItemHeight - 100;
     }
 }
 
