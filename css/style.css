@@ -127,7 +127,6 @@ footer {
 }
 
 .cardFilmYt {
-  background-color: grey;
   margin: 50px 5px !important;
   width: 250px;
   height: 200px;
@@ -162,6 +161,26 @@ footer {
   height: 500px;
 }
 
+@media (max-width: 400px) {
+  .carousel-item {
+    height: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .carousel-item {
+    height: 200px;
+  }
+}
+@media (max-width: 1000px) {
+  .carousel-item {
+    height: 300px;
+  }
+}
+@media (max-width: 1400px) {
+  .carousel-item {
+    height: 400px;
+  }
+}
 .home-title {
   transform: translateY(-200px);
   color: white;

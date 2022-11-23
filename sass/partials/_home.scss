@@ -8,6 +8,30 @@
     height: 500px;
 }   
 
+@media (max-width: 400px ){
+    .carousel-item {
+        height: 100px;
+    }
+}
+
+@media (max-width: 600px ){
+    .carousel-item {
+        height: 200px;
+    }
+}
+
+@media (max-width: 1000px ){
+    .carousel-item {
+        height: 300px;
+    }
+}
+
+@media (max-width: 1400px ){
+    .carousel-item {
+        height: 400px;
+    }
+}
+
 .home-title {
     @extend .font-title;
 
