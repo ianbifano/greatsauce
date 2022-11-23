@@ -3,6 +3,7 @@
 /* iframes style */
 .iframe {
     @include globals.size(60vw, 30vh);
+    display: block;
 }
 
 /* estilo de bordes */
@@ -127,7 +128,7 @@ footer {
 }
 
 .cardFilmYt {
-    margin: 100px 0px;
+    margin: 50px 5px !important;
     @include globals.size(250px,200px);
 
     animation-name: cardYT-animation;
