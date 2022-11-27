@@ -216,6 +216,17 @@ footer {
   box-shadow: -5px -5px 15px orange;
 }
 
+.img-container {
+  width: 20rem;
+  height: 20rem;
+}
+
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .form {
   margin: 50px 0px 100px 0px;
   padding: 15px;
