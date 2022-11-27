@@ -59,6 +59,10 @@
   }
 }
 /* Footer Style */
+.containerIconos {
+  margin-bottom: 50px;
+}
+
 footer {
   margin-top: 100px;
 }
