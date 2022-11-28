@@ -163,7 +163,7 @@ footer {
 
 .carousel-img-container {
   width: 100vw;
-  height: 30vh;
+  height: 40vh;
 }
 
 .carousel-img {
@@ -180,6 +180,11 @@ footer {
   margin: 0px;
 }
 
+@media (max-width: 500px) {
+  .home-title {
+    transform: translateY(-100px);
+  }
+}
 /* animacion de los titulos */
 @keyframes home-animation {
   from {
